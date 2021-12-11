@@ -2,3 +2,5 @@ version: '3'
 services:
   arch:
     build: .
+    volumes:
+      - ./app:/app
