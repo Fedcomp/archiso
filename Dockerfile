@@ -1,3 +1,5 @@
-FROM archlinux:base-devel-20211205.0.40756
+FROM archlinux:base
+
+RUN pacman -Syu --noconfirm
 
 WORKDIR /app
