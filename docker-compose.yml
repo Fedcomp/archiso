@@ -2,5 +2,6 @@ version: '3'
 services:
   arch:
     build: .
+    privileged: true
     volumes:
-      - ./app:/app
+     - ./app:/app
